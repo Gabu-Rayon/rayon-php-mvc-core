@@ -9,6 +9,6 @@
   "require": {  },
    "autoload": {
         "psr-4": {
-            "gabu\phpmvc\\": "."
+            "gabu\\phpmvc\\": "."
         }
 }

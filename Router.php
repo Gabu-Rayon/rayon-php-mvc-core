@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core;
-use app\core\exception\NotFoundException;
+namespace gabu\phpmvc;
+use gabu\phpmvc\exception\NotFoundException;
 class Router
 {
     public Request $request;
@@ -51,7 +51,7 @@ class Router
 
         if (is_array($callback)) {
             /**
-             * @var \app\core\Controller $controller
+             * @var \gabu\phpmvc\Controller $controller
              */
             $controller = new $callback[0];
 

@@ -3,10 +3,10 @@
  * Summary of Application Class
  * 
  */
-namespace app\core;
+namespace gabu\phpmvc;
 
-use app\core\db\DbModel;
-use app\core\db\Database;
+use gabu\phpmvc\db\DbModel;
+use gabu\phpmvc\db\Database;
 
 class Application{
 
@@ -55,12 +55,12 @@ class Application{
     }
 
 
-    public function getController():\app\core\Controller{
+    public function getController():\gabu\phpmvc\Controller{
         
         return $this->controller;
     }
 
-     public function setController(\app\core\Controller $controller):  void {
+     public function setController(\gabu\phpmvc\Controller $controller):  void {
         
         $this->controller = $controller;
     }

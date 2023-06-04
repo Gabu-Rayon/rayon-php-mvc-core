@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middlewares;
+namespace gabu\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use gabu\phpmvc\Application;
+use gabu\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

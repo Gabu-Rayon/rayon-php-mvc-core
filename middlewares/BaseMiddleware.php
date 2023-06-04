@@ -1,5 +1,5 @@
 <?php
-namespace app\core\middlewares;
+namespace gabu\phpmvc\middlewares;
 
 
 abstract class BaseMiddleware{

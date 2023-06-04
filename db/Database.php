@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace gabu\phpmvc\db;
 
-use app\core\Application;
+use gabu\phpmvc\Application;
 
 
 class Database{

@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace gabu\phpmvc\form;
 
-use app\core\Model;
+use gabu\phpmvc\Model;
 
 abstract class BaseField{
 
@@ -13,7 +13,7 @@ abstract class BaseField{
     /**
      * Field constructor.
      *
-     * @param \app\core\Model $model
+     * @param \gabu\phpmvc\Model $model
      * @param string  $attribute
      */
     public function __construct(Model $model, string $attribute)

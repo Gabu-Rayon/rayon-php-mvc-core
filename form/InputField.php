@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\form;
+namespace gabu\phpmvc\form;
 
-use app\core\middlewares\BaseMiddleware;
-use app\core\Model;
+use gabu\phpmvc\middlewares\BaseMiddleware;
+use gabu\phpmvc\Model;
 
 class InputField extends BaseField
 {

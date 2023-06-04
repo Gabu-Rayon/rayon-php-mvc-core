@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace gabu\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use gabu\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -12,7 +12,7 @@ class Controller
 
 
     /**
-     * @var \app\core\middlewares\BaseMiddleware
+     * @var \gabu\phpmvc\middlewares\BaseMiddleware
      */
     protected array $middlewares = [];
 
@@ -31,7 +31,7 @@ class Controller
     }
 
     /**
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \gabu\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

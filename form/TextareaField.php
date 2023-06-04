@@ -1,5 +1,5 @@
 <?php 
-namespace app\core\form;
+namespace gabu\phpmvc\form;
 
 class TextareaField extends BaseField{
     

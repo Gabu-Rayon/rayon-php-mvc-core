@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace gabu\phpmvc;
 
-use app\core\db\DbModel;
+use gabu\phpmvc\db\DbModel;
 
 
 abstract class UserModel extends DbModel{

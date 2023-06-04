@@ -1,14 +1,17 @@
 {
   "name": "gabu/rayon-php-mvc-core",
+  "autoload": {
+    "psr-4": {
+      "gabu\\phpmvc\\": "./"
+    }
+  },
   "authors": [
     {
       "name": "Gabu-Rayon",
       "email": "gibsonmurimi4@gmail.com"
     }
   ],
-  "require": {  },
-   "autoload": {
-        "psr-4": {
-            "gabu\\phpmvc\\": "."
-        }
+  "require": {}
 }
+
+
